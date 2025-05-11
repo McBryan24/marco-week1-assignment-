@@ -1,7 +1,7 @@
 #3. Write a program that checks if a student’s grade (0–100) is:
 # - A: 80+ - B: 70–7 - C: 60–69 - D: 50–59 - F: < 50
-stdt_grade = int(input("Enter student's grade:"))
-if stdt_grade >= 80:
+stdt_grade = int(input("Enter student's grade:")) #Asks for user input
+if stdt_grade >= 80:    #checks grades output respective scores
     print("Grade A")
 elif stdt_grade >= 70:
     print("Grade B")

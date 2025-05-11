@@ -3,8 +3,8 @@
 #- square_number(n)
 #- Import and use those functions in your main script.
 
-#from utils import greet_user, square_name
-import utils
+from utils import greet_user, square_name
+
 greet_user('Marco')
 square_name(3)
 print(square_name(3))
